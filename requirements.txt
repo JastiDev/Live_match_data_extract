@@ -1,0 +1,11 @@
+# Core dependencies
+selenium==4.16.0
+undetected-chromedriver==3.5.4
+PyAutoGUI==0.9.54
+
+# UI dependencies
+tkinter  # Usually comes with Python installation
+
+# Additional utilities
+setuptools>=68.0.0  # Required for distutils
+webdriver_manager==4.0.1  # For managing ChromeDriver 

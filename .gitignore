@@ -1,0 +1,9 @@
+.qodo
+*.json
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
