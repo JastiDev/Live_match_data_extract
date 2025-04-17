@@ -1,6 +1,102 @@
 # Live Match Data Scraper
 
-A Python application with a graphical user interface for scraping live match data from betting websites. The application features headless mode support, customizable save locations, and comprehensive match data extraction.
+## Project Overview
+
+The Live Match Data Scraper is a sophisticated Python-based application designed to extract real-time match data from betting websites. Built with a focus on reliability and user experience, this tool combines modern web scraping techniques with a user-friendly graphical interface, making it accessible to both technical and non-technical users.
+
+### Purpose
+
+This application serves several key purposes:
+
+- Automated collection of live sports betting data
+- Real-time monitoring of match odds and market movements
+- Systematic data extraction for sports analytics
+- Efficient storage of betting market information in structured JSON format
+
+### Technical Architecture
+
+The project is built on three main components:
+
+1. **Web Scraping Engine**:
+
+   - Utilizes Selenium WebDriver for dynamic content interaction
+   - Implements undetected-chromedriver for bot detection bypass
+   - Handles Cloudflare protection and other security measures
+   - Manages browser sessions and page navigation
+
+2. **Data Processing Layer**:
+
+   - Extracts structured data from HTML elements
+   - Processes odds and betting information
+   - Handles multiple market types and betting formats
+   - Implements error handling and data validation
+
+3. **Graphical User Interface**:
+   - Built with tkinter for cross-platform compatibility
+   - Features a modern, intuitive design
+   - Provides real-time logging and status updates
+   - Includes customizable save location functionality
+
+### Key Features
+
+- **Advanced Web Scraping**:
+
+  - Automated navigation through betting platforms
+  - Real-time data extraction from live matches
+  - Support for multiple sports and competitions
+  - Robust error handling and recovery mechanisms
+
+- **Comprehensive Data Collection**:
+
+  - Team and competition information
+  - Live match odds (back/lay)
+  - Detailed market data
+  - Minimum and maximum bet limits
+  - Stake information
+
+- **User-Friendly Interface**:
+
+  - Simple configuration options
+  - Real-time progress monitoring
+  - Customizable save locations
+  - Headless mode support
+
+- **Data Management**:
+  - Structured JSON output
+  - Organized file naming
+  - Customizable save locations
+  - Efficient data storage format
+
+### Implementation Details
+
+The scraper employs several sophisticated techniques:
+
+1. **Browser Automation**:
+
+   - Chrome WebDriver integration
+   - Headless browsing capability
+   - Automated page navigation
+   - Dynamic content handling
+
+2. **Data Extraction**:
+
+   - CSS selector-based element location
+   - Dynamic wait mechanisms
+   - Structured data parsing
+   - Error-resistant extraction methods
+
+3. **Security Features**:
+
+   - Bot detection bypass mechanisms
+   - Cloudflare protection handling
+   - Session management
+   - Secure login handling
+
+4. **Error Handling**:
+   - Comprehensive exception management
+   - Automatic recovery mechanisms
+   - Detailed error logging
+   - User-friendly error messages
 
 ## Features
 
